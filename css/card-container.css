@@ -8,14 +8,15 @@
 }
 
 h1{
-    width: 100vw;
-    text-align: center;
+    width: 100%;
     font-weight: bolder;
     color: #b1beda;
-    padding: 20px;
+    text-align: center;
+    padding: 20px 0px;
 }
 
 .card-container{
+    margin: 20px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -23,6 +24,7 @@ h1{
 }
 
 .my-card{
+    margin: 20px 0px;
     min-width: 200px;
     width: 300px;
     border: 1px solid #b1bedab9;
