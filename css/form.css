@@ -33,6 +33,7 @@ input{
     border: none;
     border-bottom: 2px solid #b1beda;
     background-color: transparent;
+    width: 100%;
 }
 
 button{
@@ -62,4 +63,18 @@ form{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+}
+
+.input-container{
+    position: relative;
+}
+
+.username-err, .email-err, .pass-err, .cnfrm-pass-err{
+    color: red;
+}
+
+.validation-icon{
+    display: none;
+    position: absolute;
+    right: 5px;
 }
