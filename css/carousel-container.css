@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans&family=Roboto&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+}
+
+.carousel-item h5{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
 }
 
 .img-container{
