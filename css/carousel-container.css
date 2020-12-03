@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.carousel-container{
+    z-index: -222;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-inner img{
+    height: 100vh;
+}

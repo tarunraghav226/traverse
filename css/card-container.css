@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    width: 100vw;
+    text-align: center;
+    font-weight: bolder;
+    color: #b1beda;
+    padding: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my-card{
+    min-width: 200px;
+    width: 300px;
+    border: 1px solid #b1bedab9;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 9px #b1beda;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card-title{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-description{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px 20px 10px;
+    padding: 0px 10px;
+}
+
+.card-btn{
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #b1beda;
+    background-color: white;
+    color: #b1beda;
+    border-radius: 5px;
+}
+
+.card-btn:hover{
+    background-color: #b1beda;
+    color: white;
+}
