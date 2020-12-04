@@ -136,6 +136,41 @@ tbody tr:last-child td{border: none;}
     text-align: center;
 }
 
+.comments-container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.comments-container h3{
+    color: #b1beda;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.comment-section{
+    border: 1px solid #b1beda;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.comment-by{
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-by-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% ;
+}
+
+.comment{
+    width: 80%;
+    margin: 0px auto;
+}
+
 @media only screen and (max-width:600px){
     .product-price-calculation{
         flex-direction: column;
