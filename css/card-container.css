@@ -27,6 +27,7 @@ h1{
     margin: 20px 0px;
     min-width: 200px;
     width: 300px;
+    height: 400px;
     border: 1px solid #b1bedab9;
     border-radius: 5px;
     overflow: hidden;
@@ -60,9 +61,15 @@ h1{
     background-color: white;
     color: #b1beda;
     border-radius: 5px;
+    transition: 0.5s;
+}
+.card-btn a{
+    transition: 0.5s;
+    color: #b1beda;
+    text-decoration: none;
 }
 
-.card-btn:hover{
+.card-btn:hover, .card-btn:hover > a, .card-btn a:hover{
     background-color: #b1beda;
     color: white;
 }
