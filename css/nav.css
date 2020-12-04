@@ -38,11 +38,12 @@ ul li{
     height: 92vh;
 }
 
+.bars, .cross{display: none;}
+
 .nav  i{
     position: absolute;
     right: 15px;
     top: 20px;
-    display: none;
 }
 
 @media only screen and (max-width:450px){
@@ -66,10 +67,18 @@ ul li{
     }
 
     .bars{
-        display: inline!important;
+        display: inline;
     }
 
     #chk:checked ~ ul{
         top: 0vh;
     }
+
+    #chk:checked ~ .bars{
+        display: none;
+    }
+
+    #chk:checked ~ .cross{
+        display: inline;
+    }   
 }
