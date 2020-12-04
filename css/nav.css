@@ -6,6 +6,10 @@
     margin: 0px;
 }
 
+body{
+    min-width: 200px;
+}
+
 .nav{
     position: sticky;
     background-color: #b1beda;
@@ -32,6 +36,36 @@ ul li{
     font-size: 20px;
 }
 
+ul li:first-child::before{
+    font-family:'FontAwesome';
+    content:"\f1b9";
+    margin-right: 4px;
+}
+
+ul li:nth-child(2)::before{
+    font-family:'FontAwesome';
+    content:"\f290";
+    margin-right: 4px;
+}
+
+ul li:nth-child(3)::before{
+    font-family:'FontAwesome';
+    content:"\f090";
+    margin-right: 4px;
+}
+
+ul li:nth-child(4)::before{
+    font-family:'FontAwesome';
+    content:"\f08b";
+    margin-right: 4px;
+}
+
+ul li:last-child::before{
+    font-family:'FontAwesome';
+    content:"\f2bd";
+    margin-right: 4px;
+}
+
 
 .carousel-container img{
     width: 100%;
@@ -46,7 +80,7 @@ ul li{
     top: 20px;
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:580px){
     ul li{
         clear: both;
         width: 100%;
