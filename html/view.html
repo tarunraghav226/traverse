@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/view.css">
+
+    <title>Traverse-Home Page</title>
+  </head>
+  <body>
+    <div class="nav">
+            <input type="checkbox" name="chk" id="chk" hidden>
+            <span class="title">TRAVERSE</span>
+            <ul>
+                <li>Find car</li>
+                <li>Packages</li>
+                <li>Login</li>
+                <li>SignUp</li>
+                <li>AboutUs</li>
+            </ul>
+            <label for="chk"><i class="fa fa-bars bars"></i></label>
+            <label for="chk"><i class="fa fa-times cross"></i></label>
+    </div>
+    
+    <div class="product-container">
+        <div class="product-details">
+            <div class="product-image">
+                <img src="../images/carousel-images/second-image.jpg" alt="product-img">
+            </div>
+            <div class="product-info">
+                <div class="product-title">Title</div>
+                <span>Description</span>
+                <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quisquam assumenda corporis sequi atque perferendis pariatur, doloremque magnam a odit, accusantium facilis accusamus dignissimos tempore, iusto incidunt obcaecati earum consectetur? Quis impedit, labore libero magni autem ut iste aspernatur possimus, illum, modi architecto itaque tempore consequatur iusto ea a? Modi consequuntur adipisci distinctio! Laboriosam nulla odio ipsa qui velit, quos nisi in voluptates nobis reprehenderit rerum praesentium repudiandae rem. Fugit officiis consectetur reprehenderit iure a amet? Perferendis amet commodi architecto, eveniet ipsa aut ea magni voluptatum suscipit doloribus atque quos, aliquid ab sint hic voluptatibus exercitationem? A ipsa quas modi.</div>
+                <span>Fair</span>
+                <div class="product-fair">10.0</div>
+            </div>
+        </div>
+        <div class="product-price-calculation">
+            <div class="user-input">
+                <label for="user-distance">Enter roundtrip distance to calculate total price</label><br>
+                <input type="number" name="distance" id="user-distance">
+                <br><br>
+                <label for="promo-code">Enter Promo Code</label><br>
+                <input type="text" name="promo-code" id="promo-code">
+                <br><br>
+                <button id="cal-btn">Calculate</button>
+            </div>
+            <div class="calculated-price">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2" class="ttitle">Trip Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="ttitle">Fair</td>
+                            <td class="ttitle" id="fair">10.0</td>
+                        </tr>
+                        <tr>
+                            <td class="ttitle">Distance</td>
+                            <td class="ttitle" id="distance">123</td>
+                        </tr>
+                        <tr>
+                            <td class="ttitle">Price</td>
+                            <td class="ttitle" id="price">234</td>
+                        </tr>
+                        <tr>
+                            <td class="ttitle">Discount</td>
+                            <td class="ttitle" id="discount">10</td>
+                        </tr>
+                        <tr>
+                            <td class="ttitle">Discounted Price</td>
+                            <td class="ttitle" id="disc-price">100</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <button>Book Now</button>
+            </div>
+        </div>
+        <div class="product-comments"></div>
+    </div>
+    <script src="../scripts/price-calculate.js"></script>
+    
+    <main>
+      <div class="footer-container">
+          <article>
+              <h3>ABOUT</h3>
+              <article>
+                  We are here to provide you the best experience of travelling. Hire our cars at a very cheap rate and explore the world with your own.
+              </article>
+          </article>
+          <aside>
+              <div class="categories">
+                  <h3>CATEGORIES</h3>
+                  <a href="#">Book Car</a>
+                  <a href="#">Buy a tour package</a>
+              </div>
+              <div class="quick_links">
+                  <h3>Quick Links</h3>
+                  <a href="#">ABOUT US</a>
+                  <a href="#">Contact Us</a>
+                  <a href="#">Contribute</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Sitemap</a>
+                  <a href="#">Disclaimer</a>
+              </div>
+              <div class="contact_us">
+                  <h3>CONTACT US</h3>
+                  <a href="#"><i class="fa fa-home"></i> Mathura, Uttar Pradesh, India</a>
+                  <a href="#"><i class="fa fa-envelope"></i> traverse@gmail.com</a>
+                  <a href="#"><i class="fa fa-phone"></i> Mobile: 9729280731</a>
+                  <a href="#"><i class="fa fa-facebook"></i> Traverse</a>
+              </div>
+          </aside>
+      </div>
+      <div class="registration">
+          <span>Register For Free</span>
+          <a href="#">SignUp!</a>
+      </div>
+      <nav>
+          <a href="#"><i class="fa fa-facebook facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter twitter"></i></a>
+          <a href="#"><i class="fa fa-google google"></i></a>
+          <a href="#"><i class="fa fa-linkedin linkedin"></i></a>
+          <a href="#"><i class="fa fa-telegram telegram"></i></a>
+      </nav>
+      <footer>
+          <span>Copyright&#169;2020 All Rights Reserved.</span>
+      </footer>
+    </main>
+
+  </body>
+</html>
