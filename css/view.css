@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.product-container{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-details{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-image{
+    width: 40%;
+    margin-right: 10px;
+}
+
+.product-image img{
+    width: 100%;
+    min-width: 200px;
+}
+
+.product-info{
+    width: 40%;
+}
+
+.product-title{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.product-description, .product-fair{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    word-spacing: 1px;
+}
+
+span{font-family: 'Krona One', sans-serif;}
+
+.product-price-calculation{
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.user-input{
+    width: 40%;
+    margin-right: 20px;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #b1beda;
+}
+
+input:focus{
+    box-shadow: 0px 10px 10px #b1beda;
+}
+
+#discount::after{
+    content: '%';
+}
+
+label{
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 30px;
+}
+
+button{
+    width: 100%;
+    background-color: white;
+    color: #b1beda;
+    border: 1px solid #b1beda;
+    border-radius: 5px;
+    padding: 4px;
+    transition: .5s;
+}
+
+button:hover{
+    background-color: #b1beda;
+    color: white;
+}
+
+.calculated-price{
+    width: 40%;
+    display: none;
+}
+
+table{
+    width: 100%;
+    color: white;
+    border:1px solid #b1beda;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+table, tr{
+    border-radius: 7px;
+}
+
+table thead{
+    background-color: #b1beda;
+}
+
+tbody tr, tbody tr td{
+    background-color: #bbcbee81;
+    border-bottom: 1px solid #b1beda;
+}
+
+tbody tr:hover{
+    background-color: #eaebeecb;
+}
+
+tbody tr:last-child td{border: none;}
+ 
+.ttitle{
+    text-align: center;
+}
+
+@media only screen and (max-width:600px){
+    .product-price-calculation{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .product-details{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .product-image{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .product-info{width: 100%;}
+    .calculated-price{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .user-input{width: 100%;}
+}
+
