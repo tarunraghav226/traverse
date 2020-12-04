@@ -44,7 +44,7 @@ h1{
     padding: 10px;
 }
 
-.card-description{
+.card-description, .card-fair{
     font-family: 'PT Sans', sans-serif;
     font-size: 20px 20px 10px;
     padding: 0px 10px;
